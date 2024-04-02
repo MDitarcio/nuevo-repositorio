@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+} 
+
+.productos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    justify-content: space-between; /* Distribuye los elementos uniformemente en el eje principal */
+}
+body {
+    background-image: linear-gradient(rgba(137, 137, 137, 0.5), rgba(251, 247, 247, 0.5)), url('https://i.pinimg.com/474x/2d/b8/ea/2db8eaa9b8535f2ef658470ee7b73111.jpg');
+
+}
+
+
+
+.producto {
+    background-color: #5d6d80;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; /*inline-block;  Para que los productos se muestren en línea */
+    width: 48%;  /*Ajusta el ancho según tu diseño */
+    margin-right: 20%; /* Añade un margen entre los productos */
+    vertical-align: top; /* Alinea los productos en la parte superior */
+
+    flex-direction: column; /* Establece la dirección de los elementos en columna */
+    align-items: center; /* Alinea los elementos horizontalmente al centro */
+    text-align: center;
+}
+
+.producto h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.producto p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.producto .precio {
+    font-weight: bold;
+    color: #e5e8eb;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.productoAgregar {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* Cambia el botón a bloque para que ocupe todo el ancho */
+    margin: 10px auto; /* Centra el botón horizontalmente */
+    
+}
+.productoAgregar:hover {
+    background-color: #0056b3;
+}
+
