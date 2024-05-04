@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "Eukanuba - Cachorro Puppy",
+        "peso": 15,
+        "precio": 35794,
+        "imagen": "./img/eukanuba-puppy.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Pro Plan - Raza Pequeña",
+        "peso": 14,
+        "precio": 54891,
+        "imagen": "./img/proplan-razapequena.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Royal Canin - Hipoalergénico",
+        "peso": 2,
+        "precio": 19850,
+        "imagen": "./img/royal-hipoalergenico.jpeg"
+    },
+    {
+        "id": 4,
+        "nombre": "Royal Canin - Nutrición",
+        "peso": 3,
+        "precio": 29700,
+        "imagen": "./img/royal-nutricion.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Green dog - Alimento Vegano",
+        "peso": 10,
+        "precio": 31431,
+        "imagen": "./img/green-dog.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Balanced - Cerdo/Arroz",
+        "peso": 15,
+        "precio": 50769,
+        "imagen": "./img/balanced-cerdo.png"
+    }
+]
